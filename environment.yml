@@ -1,0 +1,23 @@
+name: object
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - cudatoolkit=11.5
+  - cudnn
+  - pip
+  - pip:
+    - pip-tools
+    - torch
+    - torchvision
+    - dvc
+    - matplotlib
+    - seaborn
+    - mlflow
+    - flask
+    - tqdm
+    - joblib
+    - -e .
