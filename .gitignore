@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+# Ignore data directory
+data/
+
+# Ignore mlruns directory (used by MLflow)
+mlruns/
 
 # Distribution / packaging
 .Python
